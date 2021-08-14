@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "127395161582",
+    "project_id": "whatsapp-app-c0349",
+    "storage_bucket": "whatsapp-app-c0349.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127395161582:android:00c3548362a0465b6edaff",
+        "android_client_info": {
+          "package_name": "online.meetforyou.whatsappapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127395161582-c5ha1jihqmod8ct9t7op0qbqb204vr1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHFPyqHlUM9KR-Hv07yH1uucVLEunkLo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127395161582-c5ha1jihqmod8ct9t7op0qbqb204vr1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
