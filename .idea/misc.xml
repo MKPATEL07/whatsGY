@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/activity_chat_detailed.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/activity_settings.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/activity_signin.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/activity_signup.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/activity_splash.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/fragment_chats_fragments.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/fragment_status.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/HP/Desktop/ANDROID APPS2/whatsappApp/app/src/main/res/layout/sample_show_user.xml" value="0.18055555555555555" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

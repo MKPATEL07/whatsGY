@@ -7,13 +7,16 @@
     android:layout_marginStart="5dp"
     android:layout_marginLeft="5dp"
     android:layout_marginTop="3dp"
-    android:layout_marginEnd="7dp"
+    android:layout_marginEnd="3dp"
     android:layout_marginRight="7dp"
     android:layout_marginBottom="2dp"
     android:background="@drawable/bg_reciver"
     android:maxWidth="310dp"
     android:maxHeight="400dp"
-    android:minHeight="30dp">
+    android:minHeight="50dp">
+
+
+
 
     <TextView
         android:id="@+id/reciverText"
@@ -21,7 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
         android:layout_marginLeft="6dp"
-        android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="3dp"
@@ -31,8 +33,10 @@
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/reciverTime"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/reciverTime"

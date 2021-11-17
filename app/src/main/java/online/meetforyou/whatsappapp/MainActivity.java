@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 
 import online.meetforyou.whatsappapp.Adapters.FragmentAdapter;
 import online.meetforyou.whatsappapp.databinding.ActivityMainBinding;
@@ -28,6 +29,12 @@ FirebaseAuth mAuth;
 
         binding.viewpager.setAdapter(new FragmentAdapter(getSupportFragmentManager()));
         binding.tablayout.setupWithViewPager(binding.viewpager);
+
+        try{
+                FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 
@@ -50,6 +57,11 @@ FirebaseAuth mAuth;
             mAuth.signOut();
                 Intent intent = new Intent(MainActivity.this , signinActivity.class);
                 startActivity(intent);
+                finish();
+                break;
+            case R.id.GroupChat:
+                Intent intent1 = new Intent(MainActivity.this , GroupChatActivity.class);
+                startActivity(intent1);
                 finish();
                 break;
 

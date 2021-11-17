@@ -27,11 +27,14 @@ public class ChatDetailedActivity extends AppCompatActivity {
    ActivityChatDetailedBinding binding;
    FirebaseDatabase database;
    FirebaseAuth auth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         binding = ActivityChatDetailedBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
          getSupportActionBar().hide();
 
          database = FirebaseDatabase.getInstance();

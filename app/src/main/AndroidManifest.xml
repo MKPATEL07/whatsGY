@@ -10,18 +10,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatsappApp">
-        <activity android:name=".SplashActivity"> <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".GroupChatActivity"></activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".SettingsActivity" />
         <activity android:name=".ChatDetailedActivity" />
         <activity android:name=".signupActivity" />
-        <activity android:name=".signinActivity">
-
-        </activity>
+        <activity android:name=".signinActivity"></activity>
         <activity android:name=".MainActivity" />
     </application>
+
 
 </manifest>

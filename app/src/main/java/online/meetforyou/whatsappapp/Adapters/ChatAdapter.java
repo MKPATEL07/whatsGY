@@ -13,16 +13,20 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FirebaseStorage;
 
 import java.util.ArrayList;
 
 import online.meetforyou.whatsappapp.Models.MessageModel;
+import online.meetforyou.whatsappapp.Models.Users;
 import online.meetforyou.whatsappapp.R;
 
 public class ChatAdapter extends  RecyclerView.Adapter {
+
    ArrayList<MessageModel> messageModels;
    Context context ;
    String recId;
+
    int SENDER_VIEW_TYPE = 1;
    int RECIEVER_VIEW_TYPE = 2;
 
@@ -66,10 +70,11 @@ public class ChatAdapter extends  RecyclerView.Adapter {
 
     }
 
+
     @Override
     public void onBindViewHolder(@NonNull  RecyclerView.ViewHolder holder, int position) {
-     MessageModel messageModel = messageModels.get(position);
 
+     MessageModel messageModel = messageModels.get(position);
      holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
          @Override
          public boolean onLongClick(View v) {
@@ -109,6 +114,8 @@ public class ChatAdapter extends  RecyclerView.Adapter {
 
     }
 
+
+
     @Override
     public int getItemCount() {
         return messageModels.size();
@@ -116,6 +123,7 @@ public class ChatAdapter extends  RecyclerView.Adapter {
 
     public class  ReciverviewHolder extends RecyclerView.ViewHolder{
        TextView recevingMsg , recieverTime;
+
         public ReciverviewHolder(@NonNull View itemView) {
             super(itemView);
             recevingMsg = itemView.findViewById(R.id.reciverText);
@@ -133,4 +141,5 @@ public class ChatAdapter extends  RecyclerView.Adapter {
             senderTime = itemView.findViewById(R.id.senderTime);
         }
     }
+
 }
